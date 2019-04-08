@@ -23,7 +23,12 @@ public class HelloWorldControllerTest {
      * Initializing variables before we run the tests.
      * Use @BeforeAll for initializing static variables at the start of the test class execution.
      * Use @BeforeEach for initializing variables before each test is run.
-     */
+     *
+	 *
+	 *
+	 
+	 
+	 */
     @BeforeAll
     static void setup() {
         // Use as needed.
@@ -46,7 +51,7 @@ public class HelloWorldControllerTest {
     @DisplayName("Basic test for controller")
     void testHelloWorld() {
         ModelAndView actualModelAndView = helloWorldController.helloWorld();
-
+// this is test
         // Verify the result obtained matches the values we expect.
         assertEquals(EXPECTED_VIEW_NAME, actualModelAndView.getViewName());
         assertEquals(EXPECTED_SITE_NAME, String.valueOf(actualModelAndView.getModel().get("siteName")));
