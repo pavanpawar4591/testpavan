@@ -5,7 +5,7 @@ This sample code helps get you started with a simple Java web application
 deployed by AWS CodeDeploy to an Amazon EC2 server.
 
 What's Here
------------
+--------------
 
 This sample includes:
 
